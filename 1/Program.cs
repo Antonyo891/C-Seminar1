@@ -10,6 +10,7 @@ Console.Clear();
 Console.WriteLine("Введите 2 числа через Enter");
 int Number1 = int.Parse(Console.ReadLine());
 int Number2 = int.Parse(Console.ReadLine());
+Console.WriteLine($"Выажение в IF {Math.Pow(Number2,2) == Number1}");
 if (Math.Pow(Number2,2)==Number1)
 {
     Console.WriteLine("Первое число является квадратом второго");
